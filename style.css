@@ -1,0 +1,68 @@
+    h1 {
+        color: white;
+    }
+
+    /* * {
+        border: solid;
+    } */
+
+    .header{
+        background-color: cadetblue;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .site-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+    }
+
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+        color: navy;
+    }
+
+    p,h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color:midnightblue;
+    }
+    a:link{
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 10px;;
+        margin: 5  px;
+    }
+    a:visited{
+        color: sandybrown;
+    }
+    .menu{
+        background-color: navy;
+    }
+    .item{
+        position: relative ;
+
+    }
+    .item p{
+        position: absolute;
+        top :50%;
+        left: 50%; 
+        transform:translate(-50%,-50%) ;
+        opacity: 0;
+
+            
+    }
+    .item:hover p{
+        opacity: 1;
+    }
+    .item:hover img{
+        opacity:0.50;
+    }
